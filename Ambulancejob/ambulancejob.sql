@@ -35,7 +35,7 @@ ALTER TABLE `users`
 --
 
 CREATE TABLE `appels_ems` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(255) NOT NULL,
   `reporteur` varchar(255) DEFAULT NULL,
   `nomreporter` varchar(255) DEFAULT NULL,
